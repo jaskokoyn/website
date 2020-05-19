@@ -1,0 +1,21 @@
+<h1>About Page</h1>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Bio
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="./team" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Team
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="./clients" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Clients
+    </a>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
